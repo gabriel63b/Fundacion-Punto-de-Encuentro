@@ -1,0 +1,809 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+   
+}
+
+
+/* ESTILOS GENERALES
+
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+@media only screen and (min-width: 400px) {
+  h1{
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  h1{
+    font-size: 5rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  h1{
+    font-size: 7rem;
+  }
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+@media only screen and (min-width: 400px) {
+  h2 {
+    font-size: 2rem;
+  }
+}  
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 3.5rem;
+  }
+} 
+@media only screen and (min-width: 1200px) {
+  h2 {
+    font-size: 5rem;
+  }
+} 
+
+h3 {
+  font-size: 2.5rem;
+}
+
+.centrarTexto {
+    text-align: center;
+}
+.justificarTexto{
+  text-align: justify;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.colorFondo {
+    background-color: #333333;
+}
+.contenedor {
+  
+  width: 95%;
+  margin: 20px auto;
+  height: auto;
+}
+.altura95 {
+    height: 45vh;
+    width: 100%;
+  }
+  
+@media only screen and (min-width: 768px) {
+.altura95 {
+  height: 95vh;
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+}
+
+
+.boton {
+  display: block;
+  background-color: #febd59;
+  padding: 8px 35px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 5px 5px;  
+  text-align: center;
+  transition: all .3seg ease;
+  border: 2px solid #fe4918;
+  border-radius: 10px;
+}
+.bverde {
+   background-color: #7bb425;
+}
+@media only screen and (min-width: 768px) {
+.boton {
+  margin: 10px 0px;  
+  display: inline-block;
+  ;
+}
+}
+.boton:hover {
+  background-color: white;
+  color: #fe4918;
+}
+.boton.transparente {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+.boton.transparente:hover {
+  border: 2px solid #fe4918;
+  background-color: white;
+  color: black;
+} */
+
+
+/* * FOOTER *
+                
+.footer__redes {
+    background-color: #333333;
+    text-align: center;
+    height: auto;
+}
+
+.footer__redes p {
+    color:white;
+    /* margin-top: 50px;  
+}
+.footer__redes svg {
+  color:white;
+  /* margin-top: 50px; 
+  margin-right: 10px;
+}
+.footer__redes svg:hover {
+  color: #febd59;
+}
+
+.footer__logo {
+  width: 12%;
+  margin: 0px;
+} */
+
+/** INDEX **/
+
+/* .texto {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.2rem;
+} */
+/* .texto h3{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.8rem;
+}
+.texto {
+  text-transform: uppercase;
+  color: black;
+  font-size:4 rem;
+}
+
+@media only screen and (min-width:768px) {
+.texto {
+    font-size: 3rem;
+}
+.texto h3 {
+    font-size: 9rem;
+}
+}
+
+.fondoSumate {
+  background-image: url(../img/sumate.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: -30px -10px;
+}
+@media only screen and (min-width: 768px) {
+  .fondoSumate {
+    background-size: 100%;
+    background-position: 0 0;
+  }
+} */
+
+/* .fondo2d {
+  background-image: url(../img/prueba3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+} 
+
+.textoProyecto2 h2{
+  text-align: left; 
+  position: absolute;
+  text-transform: uppercase;
+  margin-bottom: 250px; 
+  
+}
+.textoProyecto2 p {
+  position: absolute;
+  text-transform: uppercase;
+  margin-bottom: 150px; 
+  
+}
+.textoProyecto2 a{
+  position: absolute;
+  margin-top: 100px;
+}
+
+.textoProyecto4 h2{
+  position: absolute;
+  text-transform: uppercase;
+  margin-bottom: 230px;
+}
+.textoProyecto4 p {
+  margin-bottom: 100px;
+  position: absolute;
+  /* text-transform: uppercase; 
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.textoProyecto4 a{
+  position: absolute;
+  margin-top: 50px;
+  color: black;
+  border: 2px solid black;
+}
+
+/* * Pagina Proyectos *
+
+.dos-columnas {        
+   display: flex;
+}
+    
+.proyectos  {
+    flex-basis: 50%;
+    
+}
+
+.proyectos img {
+    width: 300px;
+    height: 300px;
+    margin: 20px 120px;
+}
+
+
+.hijo img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+} */
+
+/* NOSOTROS
+
+.txtNosotros h1{
+  position: absolute;
+  text-transform: uppercase; 
+  opacity: 0.3;
+  color: black;
+  margin-left: 25%;
+}
+
+@media only screen and (min-width: 768px) {
+  .imgnosotros {
+    width: 100%;
+    height: 65vh;
+  }
+}
+.textoNosotros {
+  text-align: justify;
+  line-height: 30px;
+  margin: 20px;
+}
+.txt{
+  text-transform: uppercase;
+  text-align: center;
+  
+} */
+
+/* .txt-1 {
+  color: #febd59;
+}
+.txt-2 {
+  color:#7bb425;
+}
+.txt-3 {
+  color: #00a8bf;
+} */
+
+/* Galeria 
+.galeria {
+  display: block; 
+  margin: 5px 5px 5px 70px;
+  max-width: 1200px;
+}
+.galeria a {
+  display: block; 
+}
+.galeria img{
+  margin:5px;
+}
+@media only screen and (min-width:768px ) {
+  .galeria {
+      margin: 10px 120px;
+  }
+  .galeria a{
+      display: inline-block;
+      padding: 5px;
+  }
+} */
+
+/* PROYECTOS
+
+.parallax::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-filter: brightness(.8);
+  filter: brightness(.8);
+}
+.fondoproyecto {
+  position: relative;
+  height: auto;
+}
+.fondoproyecto:before {
+  background-image: url(../img/proyecto1.jpg);
+  content: '';
+}
+.fondoproyecto2:before {
+  background-image: url(../img/2deabril.jpg);
+  content: '';
+  background-position: center center;
+}
+.fondoproyecto .contenido { 
+  /* padding: 120px 0; 
+  height: 50vh;
+  color: #ffffff;
+  text-align:center;
+  position: relative;
+}
+.fondoproyecto .contenido p {
+  font-size: 1.2em;
+  text-transform: lowercase;
+}
+.fondoproyecto h3 {
+  color:#ffffff;
+  text-transform: uppercase;
+  font-size: 5vw;
+  font-family: 'Pt Sans', sans-serif;
+  opacity: 0.4;
+  padding-top: 20px;
+} */
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-12-4 13:13:0
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+/**
+ * ----------------------------------------
+ * animation kenburns-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(-15px);
+              transform: scale(1.25) translateY(-15px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  @keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(-15px);
+              transform: scale(1.25) translateY(-15px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-12-12 21:58:18
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation focus-in-contract-bck
+ * ----------------------------------------
+ */
+ @-webkit-keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(200px);
+              transform: translateZ(200px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+/* ----------------------------------------------
+ * Generated by Animista on 2020-12-12 22:10:55
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand-fwd-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes tracking-in-expand-fwd-bottom {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(500px);
+              transform: translateZ(-700px) translateY(500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd-bottom {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(500px);
+              transform: translateZ(-700px) translateY(500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+/* ----------------------------------------------
+ * Generated by Animista on 2020-12-12 22:12:39
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand-fwd-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /* ----------------------------------------------
+ * Generated by Animista on 2020-12-12 22:42:2
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-contract-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+              transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+              transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+/* ----------------------------------------------
+ * Generated by Animista on 2020-12-12 22:43:53
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation focus-in-expand
+ * ----------------------------------------
+ */
+ @-webkit-keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+
+/**
+ * ----------------------------------------
+ * animation focus-in-expand-fwd
+ * ----------------------------------------
+ */
+ @-webkit-keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+            transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 0.3;
+  }
+ }
+
+.tracking-in-contract-bck {
+	-webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}  
+.focus-in-expand {
+	-webkit-animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+  
+.tracking-in-expand-fwd-top {
+	-webkit-animation: tracking-in-expand-fwd-top 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-top 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.tracking-in-expand-fwd-bottom {
+	-webkit-animation: tracking-in-expand-fwd-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.focus-in-contract-bck {
+	-webkit-animation: focus-in-contract-bck 2s cubic-bezier(0.600, 0.040, 0.980, 0.335) both;
+	        animation: focus-in-contract-bck 2s cubic-bezier(0.600, 0.040, 0.980, 0.335) both;
+}
+
+.text-focus-in {
+    -webkit-animation:text-focus-in 2s cubic-bezier(.55,.085,.68,.53) both;animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both
+}
+
+.kenburns-top {
+	-webkit-animation: kenburns-top 15s ease-out both;
+            animation: kenburns-top 15s ease-out both;
+}
+.focus-in-expand-fwd {
+	-webkit-animation: focus-in-expand-fwd 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: focus-in-expand-fwd 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+/* 
+/*Formulario */
+/* .altura {
+  font-size: 1em;
+  margin: 10px 0;
+}
+.areatexto {
+  height: 120px;
+}
+
+.imagenform {
+  margin: 0;
+}
+@media only screen and (min-width: 768px) {
+.imagenform {
+  margin: 10px;
+}
+.areatexto {
+  height: 200px;
+}
+}
+
+.textoform {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+/** Animacion SUMATE **
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:#febd59;
+}
+#flip div:first-child div {
+  background:#7bb425;
+}
+#flip div:last-child div {
+  background:#00a8bf;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+.textoAnimacion {
+  text-transform: uppercase;
+  font-size:36px; 
+  color:#999;
+  font-weight:bold;
+  text-align: center;
+  width:100%;
+  bottom:45%;
+  display:block;
+}  */
+
+

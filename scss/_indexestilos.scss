@@ -1,0 +1,137 @@
+/** INDEX **/
+
+
+.texto h3{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.8rem;
+}
+.texto {
+  text-transform: uppercase;
+  color: black;
+  font-size:4 rem;
+}
+
+@media only screen and (min-width:768px) {
+.texto {
+    font-size: 3rem;
+}
+.texto h3 {
+    font-size: 9rem;
+}
+}
+
+.fondoSumate {
+  background-image: url(../img/sumate.jpg);
+  background-repeat: no-repeat;
+  background-size: 180%;
+  background-position: -30px -10px;
+}
+@media only screen and (min-width: 400px) {
+  .fondoSumate {
+    background-size: 160%;
+    background-position: 0 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+    .fondoSumate {
+      background-size: 160%;
+      background-position: 0 0;
+    }
+  }
+@media only screen and (min-width: 1200px) {
+    .fondoSumate {
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+
+.textoProyecto2 h2{
+  text-align: left; 
+  position: absolute;
+  text-transform: uppercase;
+  margin-bottom: 150px;   
+}
+@media only screen and (min-width: 768px) {
+    .textoProyecto2 h2 {
+        margin-bottom: 250px; 
+    }
+  }  
+
+.textoProyecto2 p {
+  position: absolute;
+  text-transform: uppercase;
+  margin-bottom: 50px;   
+  text-align: center;
+  font-size: 1.3rem;
+}
+@media only screen and (min-width: 400px) {
+    .textoProyecto2 p {
+      font-size: 1.5rem;
+    }
+  }  
+  @media only screen and (min-width: 768px) {
+    .textoProyecto2 p {
+      font-size: 1.6rem;
+      margin-bottom: 150px;
+    }
+  } 
+  @media only screen and (min-width: 1200px) {
+    .textoProyecto2 p {
+      font-size: 1.8rem;
+    }
+  } 
+
+.textoProyecto2 a{
+  position: absolute;
+  margin-top: 100px;
+}
+
+.textoProyecto4 h2{
+  position: absolute;
+  text-transform: uppercase;
+  margin-bottom: 230px;
+  color: black;
+}
+@media only screen and (min-width: 768px) {
+    .textocolor2 h2 {
+      color: #7bb425;
+    }
+  } 
+@media only screen and (min-width: 768px) {
+    .textocolord h2 {
+      color:#febd59;
+    }
+  } 
+
+.textoProyecto4 p {
+  margin-bottom: 100px;
+  position: absolute;
+  /* text-transform: uppercase; */
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+}
+
+@media only screen and (min-width: 400px) {
+    .textoProyecto4 p {
+      font-size: 1.7rem;
+    }
+  }  
+  @media only screen and (min-width: 768px) {
+    .textoProyecto4 p {
+      font-size: 2rem;
+    }
+  } 
+  @media only screen and (min-width: 1200px) {
+    .textoProyecto4 p {
+      font-size: 2.2rem;
+    }
+  } 
+
+.textoProyecto4 a{
+  position: absolute;
+  margin-top: 80px;
+  color: black;
+  border: 2px solid black;
+}

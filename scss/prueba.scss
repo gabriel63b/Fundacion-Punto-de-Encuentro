@@ -1,0 +1,23 @@
+@import "estilosgenerales";
+@import "mainestilos";
+@import "headerestilos";
+@import "footerestilos";
+@import "indexestilos";
+@import "nosotrosestilos";
+@import "proyectosestilos";
+@import "sumateestilos";
+
+  
+/*Nosotros*/ 
+
+$colores: ( /*Declaro el mapa*/
+1: #febd59,
+2: #7bb425,
+3: #00a8bf
+); 
+/*Bucle para usar los valores del mapa*/
+@each $numero, $color in $colores {
+.txt-#{$numero} {
+color: $color;
+}
+}

@@ -1,0 +1,141 @@
+/* ESTILOS GENERALES */
+
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+@media only screen and (min-width: 400px) {
+  h1{
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  h1{
+    font-size: 5rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  h1{
+    font-size: 7rem;
+  }
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+@media only screen and (min-width: 400px) {
+  h2 {
+    font-size: 2rem;
+  }
+}  
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 3.2rem;
+  }
+} 
+@media only screen and (min-width: 1200px) {
+  h2 {
+    font-size: 4.5rem;
+  }
+} 
+
+
+h3 {
+  font-size: 2.5rem;
+}
+
+
+.centrarTexto {
+    text-align: center;
+}
+.justificarTexto{
+  text-align: justify;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.colorFondo {
+    background-color: #333333;
+}
+.contenedor {
+  
+  
+  background-color: #febd59
+}
+.altura95 {
+    height: 45vh;
+    width: 100%;
+  }
+  
+@media only screen and (min-width: 768px) {
+.altura95 {
+  height: 95vh;
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+}
+
+
+.boton {
+  display: block;
+  background-color: #febd59;
+  padding: 8px 35px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.8em;
+  margin: 5px 5px;  
+  text-align: center;
+  transition: all .3seg ease;
+  border: 2px solid #fe4918;
+  border-radius: 10px;
+}
+.bverde {
+   background-color: #7bb425;
+}
+@media only screen and (min-width: 768px) {
+.boton {
+  margin: 10px 0px;  
+  display: inline-block;
+  font-size: 1em;
+  ;
+}
+}
+.boton:hover {
+  background-color: white;
+  color: #fe4918;
+}
+.boton.transparente {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+.boton.transparente:hover {
+  border: 2px solid #fe4918;
+  background-color: white;
+  color: black;
+}
+
+/* BOTON modificado de bootstrap*/
+
+.btn {
+  color:black;
+  background-color: white;
+  border: 2px solid #fe4918;
+}
+.btn:hover {
+  color: #ffffff;
+  background-color: #fe4918;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding: 0;
+}

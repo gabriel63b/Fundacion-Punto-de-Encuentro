@@ -1,0 +1,45 @@
+/** FOOTER **/
+                
+.footer__redes {
+    background-color: #333333;
+    text-align: center;
+    height: auto;
+}
+
+.footer__redes p {
+    color:white;
+    /* margin-top: 50px;  */
+}
+.footer__redes svg {
+  color:white;
+  /* margin-top: 50px; */
+  margin-right: 10px;
+}
+.footer__redes svg:hover {
+  color: #febd59;
+}
+
+.footer__logo {
+  width: 20%;
+  margin: 0px;
+}
+@media only screen and (min-width: 768px) {
+.footer__logo {
+  width: 15%;
+  margin: 0px;
+}
+}
+
+.redesSociales a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 0rem; }
+  
+
+@media only screen and (min-width: 768px) {
+    .redesSociales a {
+      margin-right: 20px;
+      font-size: 1.6rem; } }
+  
+      
