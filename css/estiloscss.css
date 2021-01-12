@@ -546,6 +546,45 @@ ul {
   bottom: 45%;
   display: block; }
 
+.altura85 {
+  height: 35vh;
+  width: 100%; }
+
+@media only screen and (min-width: 400px) {
+  .altura85 {
+    height: 40vh; } }
+
+@media only screen and (min-width: 768px) {
+  .altura85 {
+    height: 60vh; } }
+
+@media only screen and (min-width: 1200px) {
+  .altura85 {
+    height: 75vh; } }
+
+.logopago {
+  width: 60%;
+  margin: auto; }
+
+@media only screen and (min-width: 400px) {
+  .logopago {
+    width: 45%; } }
+
+@media only screen and (min-width: 768px) {
+  .logopago {
+    width: 40%; } }
+
+@media only screen and (min-width: 1200px) {
+  .logopago {
+    width: 30%; } }
+
+@media only screen and (min-width: 768px) {
+  .cont {
+    height: 15vh; } }
+
+.bordercolor {
+  border-bottom: 5px solid  #febd59; }
+
 /*Nosotros*/
 /*Bucle para usar los valores del mapa*/
 .txt-1 {
